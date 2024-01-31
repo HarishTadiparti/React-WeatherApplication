@@ -37,6 +37,10 @@
   font-weight: 500;
   line-height: normal;
 }
+
+.searchBar input::placeholder{
+  color: #FFF;
+}
 .searchBar button{
   background: none;
   border: none;
