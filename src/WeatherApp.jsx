@@ -23,6 +23,7 @@ function WeatherApp(){
                 pressure: jsonResponse.main.pressure,
                 weather: jsonResponse.weather[0].description,
             })
+            setErr(false)
         }
         catch(err){
             setErr(true)
