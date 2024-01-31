@@ -1,6 +1,6 @@
 
 
-function Weather({data, err}){
+function Weather({data}){
     return(
         <div className='weather-card' >
             <div className="weather-header">
