@@ -3,9 +3,6 @@
 function Weather({data, err}){
     return(
         <div className='weather-card' >
-            {
-                err && <p>No search place found</p>
-            }
             <div className="weather-header">
                 <div className="header-left">
                     <div className="header-location">
